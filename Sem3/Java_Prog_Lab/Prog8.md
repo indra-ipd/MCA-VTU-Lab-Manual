@@ -46,7 +46,7 @@ class test
 
 
 
-##Output#
+##Output##
 <pre>
 Sunday : false
 Monday : true
