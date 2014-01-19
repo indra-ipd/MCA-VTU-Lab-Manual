@@ -46,3 +46,13 @@ class test
 
 
 
+##Output#
+<pre>
+Sunday : false
+Monday : true
+Tuesday : true
+Wednesday : true
+Thursday : true
+Friday : true
+Saturday : false
+</pre>
