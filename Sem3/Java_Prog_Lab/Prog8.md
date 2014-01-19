@@ -47,7 +47,8 @@ class test
 
 
 ##Output##
-<pre>
+
+<pre><code>
 Sunday : false
 Monday : true
 Tuesday : true
@@ -55,4 +56,4 @@ Wednesday : true
 Thursday : true
 Friday : true
 Saturday : false
-</pre>
+</code> </pre>
