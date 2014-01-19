@@ -24,12 +24,12 @@ class test
 {
      public static void main(String[] args)
      {
-	System.out.println("Sunday : " + DaysOfWeek.SUNDAY.isWorking());
-	System.out.println("Monday : " + DaysOfWeek.MONDAY.isWorking());
-	System.out.println("Tuesday : " + DaysOfWeek.TUESDAY.isWorking());
-	System.out.println("Wednesday : " + DaysOfWeek.WEDNESDAY.isWorking());
-	System.out.println("Thursday : " + DaysOfWeek.THURSDAY.isWorking());
-	System.out.println("Friday : " + DaysOfWeek.FRIDAY.isWorking());
-	System.out.println("Saturday : " + DaysOfWeek.SATURDAY.isWorking());
+	System.out.println("Sunday : " + DaysOfWeek.SUNDAY.isWorkday());
+	System.out.println("Monday : " + DaysOfWeek.MONDAY.isWorkday());
+	System.out.println("Tuesday : " + DaysOfWeek.TUESDAY.isWorkday());
+	System.out.println("Wednesday : " + DaysOfWeek.WEDNESDAY.isWorkday());
+	System.out.println("Thursday : " + DaysOfWeek.THURSDAY.isWorkday());
+	System.out.println("Friday : " + DaysOfWeek.FRIDAY.isWorkday());
+	System.out.println("Saturday : " + DaysOfWeek.SATURDAY.isWorkday());
       }
 }
