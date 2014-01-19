@@ -6,13 +6,13 @@ In this program, the enum class comprises of the days of the week. To the enum c
 
 ##Code##
 <pre><code>
-public enum DaysOfWeek
+public enum DayOfWeek
 { 
 	// Enumeration of days of week
 	
 	MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY;
 	// isWorkday method : returns false if Saturday or Sunday else returns false
-	public boolean isWorkday()
+	public boolean isWorkDay()
 	{
 		// switch case
 		switch (this)
@@ -32,13 +32,13 @@ class test
 {
      public static void main(String[] args)
      {
-	System.out.println("Sunday : " + DaysOfWeek.SUNDAY.isWorking());
-	System.out.println("Monday : " + DaysOfWeek.MONDAY.isWorking());
-	System.out.println("Tuesday : " + DaysOfWeek.TUESDAY.isWorking());
-	System.out.println("Wednesday : " + DaysOfWeek.WEDNESDAY.isWorking());
-	System.out.println("Thursday : " + DaysOfWeek.THURSDAY.isWorking());
-	System.out.println("Friday : " + DaysOfWeek.FRIDAY.isWorking());
-	System.out.println("Saturday : " + DaysOfWeek.SATURDAY.isWorking());
+	System.out.println("Sunday : " + DayOfWeek.SUNDAY.isWorkDay());
+	System.out.println("Monday : " + DayOfWeek.MONDAY.isWorkDay());
+	System.out.println("Tuesday : " + DayOfWeek.TUESDAY.isWorkDay());
+	System.out.println("Wednesday : " + DayOfWeek.WEDNESDAY.isWorkDay());
+	System.out.println("Thursday : " + DayOfWeek.THURSDAY.isWorkDay());
+	System.out.println("Friday : " + DayOfWeek.FRIDAY.isWorkDay());
+	System.out.println("Saturday : " + DayOfWeek.SATURDAY.isWorkDay());
       }
 }
 
